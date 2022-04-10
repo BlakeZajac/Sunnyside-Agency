@@ -15,27 +15,144 @@
 
 <body>
     <header class="header">
-        <div class="overlay"></div>
-        <nav class="flex flex--jc-sb flex--ai-c">
+        <div class="overlay hasFade"></div>
+        <nav class="container flex flex--jc-sb flex--ai-c">
             <a href="/" class="header__logo">
                 <img src="/images/logo.svg" alt="Sunnyside Agency" />
             </a>
 
-            <a id="btnHamburger" href="#" class="header__menu hideForDesktop">
+            <a id="btnHamburger" href="#" class="header__toggle hideForDesktop">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
 
             <div class="header__links hideForMobile">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#" class="uppercase">Contact</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Projects</a>
+                <a href="" class="uppercase">Contact</a>
             </div>
         </nav>
+
+        <div class="header__menu hasFade">
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Projects</a>
+            <a href="" class="uppercase">Contact</a>
+        </div>
+
     </header>
 
+    <section class="hero cyan">
+        <div class="container hero__content">
+            <h1 class="hero__content center uppercase">We Are Creatives</h1>
+            <a href="#transform-your-brand">
+                <img src="/images/icon-arrow-down.svg" />
+            </a>
+        </div>
+    </section>
+
+    <section class="image-with-text yellow left flex flex--ai-c flex--cr" id="transform-your-brand">
+        <div class="container image-with-text__content">
+            <h2 class="m-center">Transform your brand</h2>
+            <p class="m-center">We are a full-service creative agency specialising in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <p class="m-center"><a href="#" class="m-center uppercase">Learn more</a></p>
+        </div>
+        <div class="container image-with-text__image">
+            <img src="/images/desktop/image-transform.jpg" alt="" />
+        </div>
+    </section>
+
+    <section class="image-with-text red right flex flex--ai-c flex--c">
+        <div class="container image-with-text__image">
+            <img src="/images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+        <div class="container image-with-text__content">
+            <h2 class="m-center">Stand out to the right audience</h2>
+            <p class="m-center">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+            <p class="m-center"><a href="#" class="m-center uppercase">Learn more</a></p>
+        </div>
+    </section>
+
+    <section class="images-with-text flex">
+        <div class="container images-with-text__content aqua">
+            <img src="/images/desktop/image-graphic-design.jpg" alt="" />
+            <h3 class="center">Graphic Design</h3>
+            <p class="center">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+        </div>
+
+        <div class="container images-with-text__content cyan-2">
+            <img src="/images/desktop/image-photography.jpg" alt="" />
+            <h3 class="center">Photography</h3>
+            <p class="center">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container block">
+            <h2 class="center uppercase">Client Testimonials</h2>
+        </div>
+        <div class="testimonials__wrapper flex">
+            <div class="container testimonials__content">
+                <img src="/images/image-emily.jpg" class="center testimonials__content--image flex flex--jc-c" alt="">
+                <p class="center">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were hit.</p>
+                <h4 class="center testimonials__content--name">Emily R.</h4>
+                <p class="center testimonials__content--role">Marketing Director</p>
+            </div>
+    
+            <div class="container testimonials__content">
+                <img src="/images/image-thomas.jpg" class="center testimonials__content--image flex flex--jc-c" alt="">
+                <p class="center">Sunnyside's enthusiasm coupled with their keen interes in our brand's success made it a satisfying and enjoyable experience.</p>
+                <h4 class="center testimonials__content--name">Thomas S.</h4>
+                <p class="center testimonials__content--role">Chief Operating Officer</p>
+            </div>
+    
+            <div class="container testimonials__content">
+                <img src="/images/image-jennie.jpg" class="center testimonials__content--image flex flex--jc-c" alt="">
+                <p class="center">Incredible end result! Our sales increased over 400% when we worked with Sunnyside! Highly recommend.</p>
+                <h4 class="center testimonials__content--name">Jennie F.</h4>
+                <p class="center testimonials__content--role">Business Owner</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery__item">
+            <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="" />
+        </div>
+
+        <div class="gallery__item">
+            <img src="/images/desktop/image-gallery-orange.jpg" alt="" />
+        </div>
+
+        <div class="gallery__item">
+            <img src="/images/desktop/image-gallery-cone.jpg" alt="" />
+        </div>
+
+        <div class="gallery__item">
+            <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+        </div>
+    </section>
+
+    <footer class="footer aqua">
+        <div class="container center">
+            <img src="/images/logo.svg" class="footer__logo" alt="" />
+        </div>
+
+        <div class="container footer__content center">
+            <a href="#" class="footer__links">About</a>
+            <a href="#" class="footer__links">Services</a>
+            <a href="#" class="footer__links">Projects</a>
+        </div>
+
+        <div class="container footer__socials center">
+            <a href="#" class="footer__socials--link"><img src="/images/icon-facebook.svg" alt="" /></a>
+            <a href="#" class="footer__socials--link"><img src="/images/icon-instagram.svg" alt="" /></a>
+            <a href="#" class="footer__socials--link"><img src="/images/icon-twitter.svg" alt="" /></a>
+            <a href="#" class="footer__socials--link"><img src="/images/icon-pinterest.svg" alt="" /></a>
+        </div>
+    </footer>
     
 </body>
 
